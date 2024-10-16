@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "fitness-tracker-api"
+version = "0.1.0"
+description = "A Django REST API for tracking fitness activities"
+authors = ["Your Name <your.email@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2"
+djangorestframework = "^3.14"
+psycopg2 = "^2.9"
+# Add other dependencies here
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.2"
+black = "^23.3"
+django-debug-toolbar = "^3.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
